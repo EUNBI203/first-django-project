@@ -3,7 +3,7 @@
 ## 1. 시작하기
 
 ```bash
-$ pip install django
+$ pip install django # 폴더만들고 가상환경만들고 실행한 다음에 설치
 ```
 
 * 현재 활용하고 있는 버전은 다음과 같다.
