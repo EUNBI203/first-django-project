@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block css %}
+<style>
+h1 {
+  font-family: 'Times New Roman', serif, Times;
+}
+p {
+  font-family:'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+</style>
+{% endblock %}
+
+{% block body %}
+<h1>Pull Number</h1>
+<p>Pull 해보니 {{ number }} 입니다!</p>
+{% endblock %}

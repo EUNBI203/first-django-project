@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block css %}
+<style>
+h1 {
+  color: rgb(219, 149, 57);
+}
+</style>
+{% endblock %}
+
+{% block body %}
+ <h1>artii</h1>
+<form action="/services/artii_result/">
+  <label for="word">문자 입력 : </label>
+  <input id="word" type="text" name="word">
+  <br>
+  <label for="font">폰트 선택</label>
+  <br>
+  <input id="font" type="radio" name="font" value="rounded">rounded
+  <input id="font" type="radio" name="font" value="acrobatic">acrobatic
+  <input id="font" type="radio" name="font" value="alligator">alligator
+  <input id="font" type="radio" name="font" value="short">short
+  <input id="font" type="radio" name="font" value="type_set">type_set
+  <br>
+  <input type="submit" value="확인">
+</form>
+{% endblock %}
